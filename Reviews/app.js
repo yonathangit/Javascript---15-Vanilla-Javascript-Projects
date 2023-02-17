@@ -75,3 +75,19 @@ function render(){
     jobEl.textContent = reviews[currentItem].job
     infoEl.textContent = reviews[currentItem].text
 }
+
+
+/*
+  Alternative
+
+  let currentItem = 0
+
+  window.addEventListener('DOMContentLoaded', function(){
+    const item = reviews[currentItem]
+    img.src = item.img
+    author.textContent = item.name
+    job.textContent = item.job
+    info.textContent = item.text
+  })
+
+*/
